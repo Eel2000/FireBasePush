@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireBasePush.Android", "FireBasePush\FireBasePush.Android\FireBasePush.Android.csproj", "{549D3530-2110-459D-A51D-5C866B5FC67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FireBasePush", "FireBasePush\FireBasePush\FireBasePush.csproj", "{C08F9ED3-5977-413F-883E-E56509E79071}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{549D3530-2110-459D-A51D-5C866B5FC67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549D3530-2110-459D-A51D-5C866B5FC67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549D3530-2110-459D-A51D-5C866B5FC67C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{549D3530-2110-459D-A51D-5C866B5FC67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549D3530-2110-459D-A51D-5C866B5FC67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549D3530-2110-459D-A51D-5C866B5FC67C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C08F9ED3-5977-413F-883E-E56509E79071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08F9ED3-5977-413F-883E-E56509E79071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08F9ED3-5977-413F-883E-E56509E79071}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C08F9ED3-5977-413F-883E-E56509E79071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08F9ED3-5977-413F-883E-E56509E79071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08F9ED3-5977-413F-883E-E56509E79071}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34011A67-CBE4-4710-B1CA-CD4611F7B246}
+	EndGlobalSection
+EndGlobal
