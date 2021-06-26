@@ -35,6 +35,45 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+
+        <StackLayout Spacing="10">
+            <Button Text="Student Subscription"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="20,0,20,0"
+                    CornerRadius="5"
+                    Command="{Binding SubcribeToStudentCommand}"/>
+
+            <Button Text="Tuteur Subscription"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="20,0,20,0"
+                    CornerRadius="5"
+                    Command="{Binding SubcribeToParentCommand}"/>
+
+            <Button Text="Unsubscribe"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="20,0,20,0"
+                    CornerRadius="5"
+                    Command="{Binding UnSubcribeCommand}"/>
+            
+            <Button Text="Subscriptions"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="20,0,20,0"
+                    CornerRadius="5"
+                    Command="{Binding DisplaySubscriptionsCommand}"/>
+        </StackLayout>
+        <ScrollView>
+            <CollectionView ItemsSource="{Binding Subsriptions}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding .}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
     </StackLayout>
 
 </ContentPage>
